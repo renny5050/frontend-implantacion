@@ -84,7 +84,7 @@ const HomeDashboard = () => {
     const [status, setStatus] = useState('Conectando...');
 
     // Replace with your Server IP if testing on a mobile device
-    const API_BASE_URL = 'http://localhost:5001'; 
+    const API_BASE_URL = 'https://backend-implantacion-1.onrender.com:443'; 
     
     const calculatePercentage = (value, min, max) => {
         return Math.min(100, Math.max(0, ((value - min) / (max - min)) * 100));
